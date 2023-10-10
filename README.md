@@ -1,7 +1,32 @@
+# Ex03 Time Table
+## AIM
+To write a html webpage page to display your slot timetable.
+
+## ALGORITHM
+## STEP 1
+Create a Django-admin Interface.
+
+## STEP 2
+Create a static folder and inert HTML code.
+
+## STEP 3
+Create a simple table using <table> tag in html.
+
+## STEP 4
+Add header row using <th> tag.
+
+## STEP 5
+Add your timetable using <td> tag.
+
+## STEP 6
+Execute the program using runserver command.
+
+## CODE
 ```
+<!DOCTYPE html>
 <html>
 <head>
-    <title>SLOT TIME TABLE - GIFTSON N (23014087)</title>
+    <title>SLOT TIME TABLE - Giftson rajarathinam(23014087)</title>
     <style>
         table {
             border-collapse: collapse;
@@ -26,7 +51,7 @@
 <body>
   <img src="logo.jpg">
   <div class="center-text">
-    <p>SLOT TIME TABLE - GIFTSON N (23014087)</p>
+    <p>logo/p>
   </div>
     <table>
         <tr>
@@ -64,7 +89,7 @@
         </tr>
         </tr>
         <tr>
-            <th colspan="1="Yellow">3-5</th>
+            <th colspan="1" bgcolor="Yellow">3-5</th>
             <th colspan="2" bgcolor="Cyan">FREE SLOT</th>
             <th colspan="1" bgcolor="Cyan">GER</th>
             <th colspan="1" bgcolor="Cyan">CHE</th>
@@ -72,7 +97,7 @@
         </tr>
     </table>
 <head>
-    <title>SLOT TIME TABLE - SRIRAM V (23013561)</title>
+    <title>SLOT TIME TABLE - gifson (23014087)</title>
     <style>
         table {
             border-collapse: collapse;
@@ -132,7 +157,14 @@
             <th colspan="2" bgcolor="White">Soft Skills (SS)</th> 
         </tr>
     </table>
-  </body>
-</html>
-Add header row using ```<th>``` tag.
+  </body></html>
 ```
+## OUTPUT
+
+![image](https://github.com/gifty003/slot/assets/145822352/30dd12e7-d14d-4151-8d32-af7034615634)
+
+
+## HTML VALIDATOR
+
+## RESULT
+The program for creating slot timetable using basic HTML tags is executed successfully.
